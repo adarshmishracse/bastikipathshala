@@ -1,0 +1,110 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      color: black;
+    }
+
+    header {
+      background: rgb(78, 78, 131);
+      color: whitesmoke;
+      padding: 1px 2px 1px;
+    }
+
+    header h1 {
+      margin-bottom: 0.1px;
+    }
+
+    nav {
+      margin-top: 0.5px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-right: 8rem;
+      padding: 4px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: aquamarine;
+      background-color: rgb(10, 14, 14);
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 2px;
+    }
+
+    .section {
+      margin-bottom: 3px;
+    }
+
+    .hero {
+      background: whitesmoke;
+      padding: 2px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2px;
+      margin-bottom: 1px;
+    }
+
+    .about, .form-section {
+      background: whitesmoke;
+      padding: 2px;
+      border-radius: 5px;
+    }
+
+    .about h2, .form-section h2 {
+      margin-bottom: 1px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    form input, form textarea, form button {
+      padding: 12px;
+      margin-bottom: 10px;
+      border: 1px solid whitesmoke;
+      border-radius: 3px;
+    }
+
+    form button {
+      background: blue;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background: rgb(106, 106, 207);
+    }
+
+    footer {
+      background: rgb(46, 46, 61);
+      color: whitesmoke;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      header, .container, footer {
+        padding: 1rem;
+      }
+
+      .hero h2 {
+        font-size: 1.5rem;
+      }
+    }
